@@ -1,0 +1,414 @@
+/* header component style */
+/*  */
+.header {
+
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+}
+
+.headerSearchBar {
+    background-color: transparent;
+    background-color: rgb(235, 229, 229);
+    margin-top: 10px;
+    padding: 10px 16px 10px 12px;
+    width: 700px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+}
+
+.headsearchbox {
+    width: 550px;
+    height: 50px;
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    outline: none;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(235, 229, 229);
+}
+
+.headerItems {
+    color: rgb(138, 136, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    font: optional;
+    font-size: xx-large;
+    font-weight: bolder;
+    /*currently icon*/
+}
+
+.headerItems:hover {
+    background-color: rgb(172, 172, 173);
+    cursor: default;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+/* 
+side Bar style */
+/*  */
+.sideBar {
+    
+   box-shadow: 3px 2px 13px -5px black;
+    border: none solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 330px;
+    max-width: 300px;   
+    transition: ease-in-out 0.2ms;   
+}
+
+ .sideItem{
+    color: rgb(8, 8, 8);
+    font-weight: lighter;
+ }
+ .sideBarBtn {
+
+    color: rgb(119, 118, 118);
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 30px;
+    cursor: pointer;
+ }  
+.lessSide{
+   
+    border: none solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 330px;
+    max-width: 90px;
+    overflow-x: hidden;
+    transition: ease-in-out 0.2ms;
+}
+.lessSideItem{
+    display: none;
+}
+
+
+
+/*  */
+/* main component styles */
+        /* setting container */
+.settingsField div{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+   gap: 18px;
+    flex-flow: column wrap;
+    width: 10%;
+    height:210px;
+    margin:-23% 0px 0px 82%;
+    padding: 8px 0px 0px 20px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px  rgb(65, 62, 62);
+    border-radius: 10px;
+    cursor: default;
+   z-index: 10;
+   position: relative;
+   
+    
+}
+.settingsField div span{
+    text-transform: capitalize;
+    align-self: flex-start; 
+}
+.settingsField div span:hover{
+    background-color: gray;
+   
+}
+  /* settings disappear */
+  .lessSettingsField{
+    display: none;
+  }
+
+
+        /* titile and content writinig */
+.typespace{
+    
+    margin-top: -120px;
+    margin-left: 500px;
+    width: 43%; 
+    height:250px;  
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px black;
+    
+   
+    
+
+}
+.lessCont{
+    background-color:  rgb(249, 252, 252);
+    margin-top: -120px;
+    margin-left: 500px;
+    width: 43%; 
+    height:48px;  
+    border-radius: 10px; 
+    box-shadow: 1px 1px 6px black;
+    transition: ease-in-out 8ms;
+    overflow: hidden;
+   
+    
+    
+} 
+.flexTitle{
+   
+   margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.typingIcons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   cursor: pointer;
+}
+.typingIcons span:hover{
+    background-color: rgb(172, 172, 173);
+    cursor: default;
+    border-radius: 60px;
+    cursor: pointer;;
+}
+
+
+/* todo class and items below */
+
+.todoField{
+    width: 77%; 
+    height: fit-content; 
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    margin-left: 21%;
+    margin-top: 2%;
+}
+.todoFieldDisplay{
+    color:rgba(10, 10, 10, 0.856);
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px rgb(110, 109, 109);
+    opacity: 0.7;
+    cursor: pointer;
+    border: 0.02px solid black;
+    height: 211px;
+      width: 900Px;
+    
+    
+}
+   
+    
+    
+   
+ 
+.todoFieldItems{
+    color:rgba(10, 10, 10, 0.856);
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px rgb(110, 109, 109);
+    opacity: 0.7;
+    cursor: pointer;
+    border: 0.02px solid black;
+    height: 211px;
+      width: 300Px;
+  
+}
+.todoFieldItems:hover{
+    box-shadow: 1px 1px 10px rgb(110, 109, 109);
+    
+    opacity: 1;
+    
+}
+.todoTitleInput{
+    width: 280px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: -10px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: default;
+    
+}
+.todoNoteInput{
+    width: 290px;
+    height: 100px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    resize: none;
+    font-weight: 500;
+    font-size: large;
+    cursor: default;
+}
+.todoIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+   } 
+   
+.colorBox{
+    width: 35%;
+    height: fit-content;
+    background-color: white;
+    transform:translate(600px,-10px) ;
+    display: flex;
+    flex-flow:row  wrap ;
+    gap: 20px;
+    box-shadow: 1px 1px 6px black;
+    border: 1px solid beige;
+    border-radius: 16px;
+    justify-content:space-evenly;
+}
+.colorBox span{
+    width: 40px ;
+    height: 40px;
+    border: 0.3px solid whitesmoke;
+    border-radius: 50px;
+    
+}
+.colorBox span:hover{
+    border-color: black;
+}
+.hidePalette{
+    display: none;
+    z-index: 1;
+}
+.moreUI{
+    width: 12%;
+    height: fit-content;
+    background-color: white;
+    transform:translate(850px,-10px) ;
+    padding:10px 0px 10px  30px;
+    display: flex;
+    flex-flow:column  wrap ;
+    gap: 20px;
+    box-shadow: 1px 1px 6px black;
+    border: 1px solid beige;
+    border-radius: 16px;
+    justify-content:space-evenly;
+    align-items: flex-start;
+   
+}
+.moreUI span{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: lighter;
+   text-transform: capitalize;
+   color: rgb(48, 47, 47);
+   cursor: default;
+    
+}
+.moreUI span:hover{
+    background-color: rgb(92, 91, 91);
+    
+}
+.hideMoreUI{
+    display: none;
+}
+.todoMoreUI{
+    width: 180px;
+    height: fit-content;
+    background-color: white;
+    transform:translate(80px,-10px) ;
+    padding:10px 0px 10px  30px;
+    margin: 20px 0px 0px 90px;
+    display: flex;
+    flex-flow:column  wrap ;
+    gap: 20px;
+    box-shadow: 1px 1px 6px black;
+    border: 1px solid beige;
+    border-radius: 16px;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    /* z-index: 10; */
+}
+.todoMoreUI span:hover{
+    background-color: grey;
+}
+.hideTodoMoreUI{
+        display: none;
+}
+.settingsOption{
+            background-color: white;
+            width:350px;
+            margin: 0 auto;
+            margin-top: -350px;
+            position: relative;
+            border-radius: 20px;
+   }
+   .settingsOptionCss{
+    display:none;
+   }
+.setOptItems{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    cursor:default;
+    padding-left: 14px;
+}
+.setOptItems_one{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    padding-left: 14px;
+    cursor:default
+}
+.mm{
+    width: 150px;
+    margin-left: 80px;
+    outline: none;
+}
+.setOptItemsTwo{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    padding-left: 14px;
+    cursor:default
+}
+.setoptCanBtn{
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: gray;
+    margin-left: 130px;
+    cursor: default;
+    
+}
+.setoptSavBtn{
+    margin-left: 50px;
+    text-transform: capitalize;
+    color: rgb(6, 6, 228);
+    font-size: larger;
+    font-weight: bolder;
+    cursor: default;
+    
+}
